@@ -12,16 +12,17 @@ Follow these steps to deploy your website to the internet using GitHub Pages.
 3.  **Do not** initialize with README, .gitignore, or License.
 
 ## Step 2: Push Your Code
-I have already initialized Git and committed your files. You just need to push them.
-Run these commands in your terminal:
+I have already initialized Git, committed your files, and set the remote URL.
+**You just need to run these two commands in your terminal:**
 
 ```bash
-# Push to GitHub
 git push -u origin main
 ```
 
+*Note: If it asks for a username/password, enter your GitHub credentials.*
+
 ## Step 3: Deploy
-After pushing successfully, run:
+After the push is successful, run:
 
 ```bash
 npm run deploy

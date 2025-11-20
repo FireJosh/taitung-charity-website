@@ -18,7 +18,7 @@ const About = () => {
                     <div className="mv-grid">
                         <div className="mv-card">
                             <Heart size={48} className="mv-icon" />
-                            <h3>核心理念</h3>
+                            <h3>服務宗旨</h3>
                             <p>
                                 我們深信「愛」是改變世界最大的力量。透過匯集社會大眾的善心，
                                 我們致力於消除貧困與孤獨，讓每一位弱勢者都能感受到社會的溫暖與關懷。
