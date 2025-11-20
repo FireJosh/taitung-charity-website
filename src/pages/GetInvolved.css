@@ -1,0 +1,91 @@
+.get-involved-hero {
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.get-involved-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.donation-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.donation-card {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-top: 5px solid var(--primary-color);
+}
+
+.donation-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.donation-card p {
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+}
+
+.bank-details {
+    background-color: var(--bg-light);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.bank-details p {
+    margin-bottom: 0.5rem;
+    font-family: monospace;
+    color: var(--text-main);
+}
+
+.volunteer-section {
+    background-color: var(--bg-light);
+}
+
+.volunteer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.voting-section {
+    text-align: center;
+}
+
+.voting-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.qr-code-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--text-light);
+    border: 2px dashed var(--text-light);
+    border-radius: 1rem;
+}
