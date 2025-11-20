@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 import { Menu, X, Heart, Facebook, Mail, MapPin, Phone } from 'lucide-react';
 import './Layout.css';
 
-const Layout = ({ children }) => {
+const Layout = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
       </header>
 
       <main className="main-content">
-        {children}
+        <Outlet />
       </main>
 
       <footer className="footer">
@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
               <a href="#" target="_blank" rel="noopener noreferrer"><Mail /></a>
             </div>
           </div>
-          
+
           <div className="footer-section">
             <h4>快速連結</h4>
             <ul>
