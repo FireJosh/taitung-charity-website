@@ -7,36 +7,21 @@ Follow these steps to deploy your website to the internet using GitHub Pages.
 - `git` must be installed on your computer (it usually is).
 
 ## Step 1: Create a GitHub Repository
-1.  Log in to GitHub.
-2.  Click the **+** icon in the top right and select **New repository**.
-3.  Name the repository `taitung-charity-website`.
-    - *Note: If you choose a different name, you must update `vite.config.js` and `package.json`.*
-4.  Make sure it is **Public**.
-5.  Click **Create repository**.
+1.  Log in to [GitHub](https://github.com/).
+2.  Create a new repository named `taitung-charity-website`.
+3.  **Do not** initialize with README, .gitignore, or License.
 
-## Step 2: Push Code to GitHub
-Open your terminal in the project folder (`d:\下載\taitung-charity-website`) and run the following commands:
+## Step 2: Push Your Code
+I have already initialized Git and committed your files. You just need to push them.
+Run these commands in your terminal:
 
 ```bash
-# Initialize git (if not already done)
-git init
-
-# Add all files
-git add .
-
-# Commit changes
-git commit -m "Initial commit"
-
-# Link to your GitHub repository (replace YOUR_USERNAME with your actual GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/taitung-charity-website.git
-
 # Push to GitHub
-git branch -M main
 git push -u origin main
 ```
 
-## Step 3: Deploy to GitHub Pages
-Run this command in your terminal:
+## Step 3: Deploy
+After pushing successfully, run:
 
 ```bash
 npm run deploy
